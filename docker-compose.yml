@@ -4,7 +4,8 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "${APP_PORT:-8000}:8000"
+      - "8000:8000"
+      - "5173:5173"
     volumes:
       - .:/var/www/html
     environment:
