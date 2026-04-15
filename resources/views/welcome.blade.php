@@ -20,6 +20,7 @@
         @endif
     </head>
     <body class="bg-[#FDFDFC] dark:bg-[#0a0a0a] text-[#1b1b18] flex p-6 lg:p-8 items-center lg:justify-center min-h-screen flex-col">
+        <h1 class="dark:text-[white]"></h1>
         <img src="{{ Vite::asset('resources/images/cat.jpg') }}">
         <br>
         <img src="{{ Vite::image('cat.jpg') }}">
